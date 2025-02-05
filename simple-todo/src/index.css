@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ebebeb, #cecece);
+  min-height: 100vh;
+}
+
+.box {
+  padding-top: 100px;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.task-box {
+  transition: 0.5s all ease-in-out;
+}
+
+.task-box:hover {
+  background-color: #0d6efd !important;
+  color: white;
+  scale: 1.02;
+}

@@ -3,32 +3,3 @@ node_modules/
 
 # Environment Variables (Sensitive Data)
 .env
-.env.local
-.env.development
-.env.production
-.env.test
-
-# Logs
-logs/
-*.log
-npm-debug.log
-yarn-error.log
-
-# Build files (React)
-build/
-dist/
-
-# Editor & System Files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Cache Files
-.cache/
-coverage/
-
-# Lock Files
-package-lock.json
-yarn.lock
-.pnpm-debug.log
